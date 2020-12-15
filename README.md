@@ -1,2 +1,4 @@
-# Dukaan
-Webpage for dukaan
+git clone repo
+npm install
+npm start
+

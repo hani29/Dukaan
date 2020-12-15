@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i,900,900i&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f1f1f1;
+}
+*,html{
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.container {
+    height: 52px;
+    padding: 8px 16px;
+    background-color: #146eb4;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img{
+      width: 120px;
+      margin-left:5px;
+  }
+  .store-made-with {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    display:flex;
+    align-items: center;
+  }
+  .download {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: underline;
+  }
+  .container2 {
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .sub-conatiner{
+      display: flex;
+      flex-direction: column;
+      align-items: normal;
+      flex: 1;
+  }
+  .img2{
+      width: 180px;
+      padding: 20px;
+  }
+
+  .trusted {
+    font-size: 20px;  
+    color: #17b31b;
+  margin: 5px;
+  }
+  .img3{
+      width: 20px;
+  }
+  .Mano-Super-Market {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .search-container {
+    height: 39px;
+    margin: 12px 16px 0;
+    padding: 12px 159px 12px 12px;
+    border-radius: 6px;
+    background-color: #d9d6d6;
+  }
+  .search-for-products {
+    font-size: 15px;
+    color: #989898;
+  }
+  .seprator {
+    padding: 0 0 10px;
+    margin: 0 0 16px;
+    border-bottom: solid 1px #d9d6d6;
+  }
+  .slide-img{
+      width: 300px;
+      color: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4) 99%)
+  }
+  .seller-container{
+      margin: 34px 15px;
+      
+  }
+  .text{
+    position: absolute;
+    top: 90%;
+    transform: translate(50%, -50%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .badge {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 2px 6px 3px;
+    border-radius: 4px;
+    background-color: #146eb4;
+  }
+  .ice-container {
+    width: 96px;
+    height: 96px;
+    margin: 20px 12px 19px 16px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: solid 1px #e6e6e6;
+  }
+  .ice-img{
+    width: 190px;
+    margin: 0px 30px 30px 17px;
+  }
+  .item {
+    margin: 0 0 8px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #1a181e;
+  }
+  .unit {
+    font-size: 16px;
+    color: #1a181e;
+  }
+ .discount{
+    margin: 2px 0 0 6px;
+    font-size: 20px;
+    text-decoration: line-through;
+    color: #808080;
+  }
+  .btn{
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: solid 1px #146eb4;
+  font-weight: 500;
+  }
+  .btn-text {
+    margin: 0 6px 0 0;
+    font-size: 16px;
+    text-align: center;
+    color: #146eb4;
+    font-weight: 600;
+  }
+  .price{
+    margin: 0 6px 0 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a181e;
+  }
+  .text-img{
+    position: absolute;
+    top: 84%;
+    transform: translate(50%, -50%);
+    color: #fff;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: #ee741f;
+    padding: 3px 8px;
+    border-radius: 4px;
+  }
+  .line{
+    height: 1px;
+    margin: 16px;
+    background-color: #d9d9d9;
+  }
+  .product{  
+    padding: 5px 8px 5px 14px;  
+    border-radius: 4px;
+    background-color:#d3d0d0;
+    color: #4d4d4d;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sub-cont{
+    background-color: #d9d6d6;
+  }
+  .footer {
+    padding: 22px 16px 16px;
+    background-color: #1a181e;
+  }
+  .container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+  .assert{
+    width: 20px;
+    margin-left: 10px;
+  }
+  .session1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+  }
+  .sub-conatiner2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 44px;
+  }
+  .code{
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto !important;
+  }
+  .footer-text{
+      width: 30px;
+      height: 15px;
+      margin: 5px 0 4px 6px;
+      color: #989898;
+      margin-left: 10;
+      font-size: 18px;
+
+  }
+  .bg-menu{
+  padding: 8px 16px 8px 15px;
+  border-radius: 20px;
+  border: solid 1px #9ac9ed;
+  background-color:#9ac9ed;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #146eb4;
+  }
+  .footer-img{
+    font-size: 18px;
+  }
+  .ice-imgs{
+    width: 100px;
+  }
+  .footer-texts{
+    font-size: 20px;
+    color: #fff;
+  }
+  .lines{
+    height: 1px;
+    margin: 16px;
+    background-color: #d9d9d9;
+    margin: 40px;
+  }
+  .store{
+    color: #ffffff;
+    margin: 0px 0px 20px;
+  }
+  .session2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ice-imgs2{
+    width: 190px;
+    display: block;
+    margin: 40px auto;
+  }
+  .container-code{
+    margin-left: "auto";
+    margin-top: -54px;
+  }
+  .stocks{
+    color: red;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .footer-text2{
+    color: "#146eb4";
+    margin-left: 10px;
+    
+  }
+  @media screen and (max-width: 600px) { 
+    .ice-imgs2 {
+      width: 140px;
+    }
+    .sub-conatiner2{
+      font-size: 13px;
+      line-height: 23px;
+    }
+    .footer-texts{
+      font-size: 17px;
+    }
+    .lines{
+      margin: 25px;
+    }
+    .ice-imgs{
+      width: 66px;
+    }
+    .ice-img {
+      width: 130px;
+  }
+  .item{
+    font-size: 15px;
+  }
+  .seller-container {
+    font-size: 28px;
+  }
+.stocks{
+  font-size: 12px;
+}
+.discount{
+  font-size: 15px;
+}
+.price{
+  font-size: 15px;
+}
+.img2 {
+  width: 140px;
+}
+.Mano-Super-Market{
+  font-size: 20px;
+}
+.trusted{
+  font-size: 15px;
+}
+.download {
+  font-size: 12px;
+}
+.store-made-with{
+  font-size: 12px;
+}
+.img{
+  width: 100px;
+}
+.foorter-img2{
+  width: 15px;
+}
+.footer-text2{
+  font-size: 12px; 
+  margin-left: 20px;
+}
+.footer-text{
+  font-size: 12px;
+}
+.slide-img{
+  width: 150px;
+}
+.text{
+  font-size: 15px;
+}
+  }
